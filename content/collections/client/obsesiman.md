@@ -21,6 +21,6 @@ menus:
     enabled: true
 author: e2b47729-545e-4738-8fe2-8f2d3902ad49
 updated_by: e2b47729-545e-4738-8fe2-8f2d3902ad49
-updated_at: 1687273704
+updated_at: 1687274067
 domain: 'https://testing.obsesiman.online'
 ---

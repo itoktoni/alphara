@@ -21,7 +21,6 @@ use Statamic\Facades\Entry;
 Route::get('configuration/{code}', function ($code) {
 
     $data = Entry::query()->where('slug', $code)->first();
-
     if ($data) {
         $menus = [];
         if ($data_menu = $data->menus) {
@@ -33,7 +32,7 @@ Route::get('configuration/{code}', function ($code) {
             }
         }
         $response = [
-            'nama' => 'Obsesiman',
+            'nama' => $data->title,
             'domain' => $data->domain,
             'logo' => $data->logo[0]['permalink'] ?? null,
             'warna' => $data->color,
