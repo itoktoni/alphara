@@ -34,6 +34,7 @@ Route::get('configuration/{code}', function ($code) {
         }
         $response = [
             'nama' => 'Obsesiman',
+            'domain' => $data->domain,
             'logo' => $data->logo[0]['permalink'] ?? null,
             'warna' => $data->color,
             'menu' => $menus,

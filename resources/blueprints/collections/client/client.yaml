@@ -11,11 +11,11 @@ sections:
           validate:
             - required
       -
-        handle: url
+        handle: domain
         field:
           input_type: text
           antlers: false
-          display: Url
+          display: domain
           type: text
           icon: text
           listable: hidden
