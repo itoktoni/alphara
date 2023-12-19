@@ -1,26 +1,19 @@
 ---
-id: f3d13a67-1ecc-4127-8088-42b1377e719d
+id: e5877393-527a-4598-a0f6-911de3531ea8
 blueprint: client
-title: Obsesiman
-url: 'https://obsesiman.com'
-color: '#004BAB'
+title: obsesiman
+domain: 'https://live.obsesiman.my.id'
+color: '#B31616'
 logo:
   - obsesiman.png
 menus:
   -
-    id: lizrtiv0
+    id: lqcg9gkd
     menu_code: '1'
-    menu_name: Konfigurasi
-    type: menu_data
-    enabled: true
-  -
-    id: lizsox79
-    menu_code: '2'
-    menu_name: 'Tembak Kotor'
+    menu_name: Print
     type: menu_data
     enabled: true
 author: e2b47729-545e-4738-8fe2-8f2d3902ad49
 updated_by: e2b47729-545e-4738-8fe2-8f2d3902ad49
-updated_at: 1687274067
-domain: 'https://testing.obsesiman.online'
+updated_at: 1702996712
 ---
